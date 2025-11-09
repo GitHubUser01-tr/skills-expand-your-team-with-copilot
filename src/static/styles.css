@@ -664,3 +664,78 @@ footer {
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* Social Sharing Styles */
+.social-sharing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  margin-top: 8px;
+  border-top: 1px solid var(--border-light);
+}
+
+.share-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.twitter-btn {
+  background-color: #000000;
+  color: white;
+}
+
+.twitter-btn:hover {
+  background-color: #333333;
+}
+
+.facebook-btn {
+  background-color: #1877f2;
+  color: white;
+}
+
+.facebook-btn:hover {
+  background-color: #145dbf;
+}
+
+.linkedin-btn {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.linkedin-btn:hover {
+  background-color: #084d94;
+}
+
+.email-btn {
+  background-color: #ea4335;
+  color: white;
+}
+
+.email-btn:hover {
+  background-color: #c5321d;
+}
